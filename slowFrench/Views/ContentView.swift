@@ -7,7 +7,8 @@
 
 import SwiftUI
 struct ContentView: View {
-    @State private var selection : String? = nil
+   @State private var selection : String? = nil
+   
     
     var body: some View {
         NavigationView {
@@ -27,7 +28,7 @@ struct ContentView: View {
                         Text("French podcast with subtitles")
                             .bold()
                         Spacer()
-                        NavigationLink(destination: LevelsView(), tag: "second", selection: $selection) {}
+                        NavigationLink(destination: LevelsView(levelUnit: Level.sampleData()), tag: "second", selection: $selection) {}
                         NavigationLink(destination: Text("Third View"), tag: "third", selection: $selection) {}
                         
                         Button("Get Started"){

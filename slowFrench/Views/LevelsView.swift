@@ -8,39 +8,48 @@
 import SwiftUI
 
 struct LevelsView: View {
-    
+   @State var levelUnit: [Level] = Level.sampleData()
+  //  @EnvironmentObject var french : French
     
     var body: some View {
-        
-        GeometryReader {
-            geo in
-            
-            ZStack {
-                Image("background")
-                    .resizable()
-                    .aspectRatio(geo.size, contentMode: .fill)
-                    .edgesIgnoringSafeArea(.all)
-                VStack{
-                    ForEach(levels){ level in LevelButton(levels1: level)}
-                        .padding()
-                }.offset(y: -60)
+        NavigationView {
+            GeometryReader {
+                geo in
+                
+                ZStack {
+                    Image("background")
+                        .resizable()
+                        .aspectRatio(geo.size, contentMode: .fill)
+                        .edgesIgnoringSafeArea(.all)
+                    
+                    NavigationLink (destination: SwiftUIView()) {
+                        VStack{
+                            ForEach(levelUnit){ level2 in
+                                LevelButton(levels1: level2)
+                            }
+                                .padding()
+                        }.offset(y: -60)
+                    }
+                }
+                    
             }
         }
-    }
 }
 
 
 
 struct LevelsView_Previews: PreviewProvider {
     static var previews: some View {
-        LevelsView()
+        LevelsView(levelUnit: Level.sampleData())
+           // .environmentObject(French(level: "Debutant", unit: [Unit(name: "vous estes", podcast: [Unit.Podcast(name: "vous etes", time: "3:30")])]))
+        
     }
 }
 
 
 
 struct LevelButton: View {
-    var levels1: Level
+    let levels1: Level
     var body: some View {
         
        // Button(action: {}) {
@@ -74,3 +83,4 @@ Button (action: {}) {
 }
  /**/*/
 
+}
