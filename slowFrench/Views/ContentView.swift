@@ -28,7 +28,7 @@ struct ContentView: View {
                         Text("French podcast with subtitles")
                             .bold()
                         Spacer()
-                        NavigationLink(destination: LevelsView(levelUnit: Level.sampleData()), tag: "second", selection: $selection) {}
+                        NavigationLink(destination: LevelsView(), tag: "second", selection: $selection) {}
                         NavigationLink(destination: Text("Third View"), tag: "third", selection: $selection) {}
                         
                         Button("Get Started"){
@@ -60,6 +60,7 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .environmentObject(French())
     }
 }
     

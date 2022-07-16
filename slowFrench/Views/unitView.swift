@@ -1,25 +1,20 @@
 //
-//  unitView.swift
+//  UnitView.swift
 //  slowFrench
 //
-//  Created by Andrea on 7/6/22.
+//  Created by Andrea on 7/16/22.
 //
 
 import SwiftUI
 
-struct unitView: View {
-    @EnvironmentObject var french : French
-    
+struct UnitView: View {
     var body: some View {
-       
-      
-        
+        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
-struct unitView_Previews: PreviewProvider {
+struct UnitView_Previews: PreviewProvider {
     static var previews: some View {
-        unitView(, body: <#some View#>)
-            .environmentObject(French(French(level: "Debutant", unit: [Unit(name: "vous estes", podcast: [Unit.Podcast(name: "vous etes", time: "3:30")])]))
+        UnitView()
     }
 }
