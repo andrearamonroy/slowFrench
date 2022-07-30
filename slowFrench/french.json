@@ -1,5 +1,5 @@
-{
-   "sections": [
+
+    [
       {
        "id" : "0783BA8E-6C05-4902-9F4F-CA7905295BB7",
       "name": "Debutant",
@@ -22,13 +22,13 @@
         "unitName": "Unit 2",
         "podcasts" : [{
             "id":"BBB613BE-2EAE-4422-A71E-C4ACEC04C6C9",
-            "podcastName": "vous etes",
+            "podcastName": "venir",
             "podcastTime":"3:30"},
          {"id":"474F4E1D-1706-4AE4-9A89-EF8D5DF83DFD",
-            "podcastName": "verbs in er",
+            "podcastName": "aller",
             "podcastTime":"3:30"},
          { "id":"77A65FF6-35B1-46E2-8D69-71781F1E20FF",
-         "podcastName": "verbs in ir",
+         "podcastName": "retorner",
           "podcastTime":"3:30"}]
     }
       
@@ -43,13 +43,13 @@
           "unitName": "Unit 1",
           "podcasts":[{
             "id":"CCFF3135-E3D0-4D19-8622-B5B7B8CCB5C9",
-            "podcastName": "vous etes",
+            "podcastName": "avoir",
             "podcastTime":"3:30"},
          {"id":"C7EC3793-B83F-400E-AD6A-D2B63EABC58D",
-            "podcastName": "verbs in er",
+            "podcastName": "aller",
             "podcastTime":"3:30"},
          { "id":"6429B244-32A7-4DE2-9B88-5B6E3EE3EDAB",
-         "podcastName": "verbs in ir",
+         "podcastName": "devenir",
           "podcastTime":"3:30"}]    
     }
   ]
@@ -62,13 +62,13 @@
           "unitName": "Unit 1",
           "podcasts":[{
             "id":"5E9DA395-D917-461B-BD93-70F77EA74153",
-            "podcastName": "vous etes",
+            "podcastName": "je suis",
             "podcastTime":"3:30"},
          {"id":"9758F3FF-3E5F-4793-9C50-5E0802B08ACB",
-            "podcastName": "verbs in er",
+            "podcastName": "tu es",
             "podcastTime":"3:30"},
          { "id":"E13A669C-DC64-4247-B006-1C5AF0DDE494",
-         "podcastName": "verbs in ir",
+         "podcastName": "il est",
           "podcastTime":"3:30"}]    
     }
   ]
@@ -76,4 +76,4 @@
    
       }
    ]
-}
+

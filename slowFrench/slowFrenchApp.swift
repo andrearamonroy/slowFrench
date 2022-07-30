@@ -11,11 +11,13 @@ import SwiftUI
 struct slowFrenchApp: App {
 //    @StateObject var french = French()
     var body: some Scene {
-            WindowGroup {
+        WindowGroup {
+            NavigationView {
                 ContentView()
-                  //  .environmentObject(french)
-                
+                  // .environmentObject(french)
             }
+            
+        }
     }
     
 }

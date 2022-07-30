@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D43DA97287F780C00C3CFD0 /* Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D43DA96287F780C00C3CFD0 /* Unit.swift */; };
-		0D43DA99287F798500C3CFD0 /* Podcast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D43DA98287F798500C3CFD0 /* Podcast.swift */; };
+		0D18F49728908B2700648784 /* PodcastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D18F49628908B2700648784 /* PodcastView.swift */; };
 		0D43DA9D287F7B9C00C3CFD0 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D43DA9C287F7B9C00C3CFD0 /* Level.swift */; };
 		0D6714B42882F08B006EC224 /* french.json in Resources */ = {isa = PBXBuildFile; fileRef = 0D6714B32882F08B006EC224 /* french.json */; };
 		0D6714B62882F634006EC224 /* UnitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6714B52882F633006EC224 /* UnitView.swift */; };
@@ -19,8 +18,8 @@
 		0D8C17AA2866604300356190 /* slowFrenchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8C17A92866604300356190 /* slowFrenchTests.swift */; };
 		0D8C17B42866604300356190 /* slowFrenchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8C17B32866604300356190 /* slowFrenchUITests.swift */; };
 		0D8C17B62866604300356190 /* slowFrenchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8C17B52866604300356190 /* slowFrenchUITestsLaunchTests.swift */; };
-		0D8C17C428674A0700356190 /* LevelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8C17C328674A0700356190 /* LevelsView.swift */; };
 		0D8C17C728678BCA00356190 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8C17C628678BCA00356190 /* Main.swift */; };
+		0DFEE11F28906177007B64B4 /* LevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFEE11E28906177007B64B4 /* LevelView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0D43DA96287F780C00C3CFD0 /* Unit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit.swift; sourceTree = "<group>"; };
-		0D43DA98287F798500C3CFD0 /* Podcast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Podcast.swift; sourceTree = "<group>"; };
+		0D18F49628908B2700648784 /* PodcastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastView.swift; sourceTree = "<group>"; };
 		0D43DA9C287F7B9C00C3CFD0 /* Level.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
 		0D6714B32882F08B006EC224 /* french.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = french.json; sourceTree = "<group>"; };
 		0D6714B52882F633006EC224 /* UnitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitView.swift; sourceTree = "<group>"; };
@@ -56,8 +54,8 @@
 		0D8C17AF2866604300356190 /* slowFrenchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = slowFrenchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D8C17B32866604300356190 /* slowFrenchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = slowFrenchUITests.swift; sourceTree = "<group>"; };
 		0D8C17B52866604300356190 /* slowFrenchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = slowFrenchUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		0D8C17C328674A0700356190 /* LevelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelsView.swift; sourceTree = "<group>"; };
 		0D8C17C628678BCA00356190 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		0DFEE11E28906177007B64B4 /* LevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +83,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D854D142886F476009AD3A8 /* ModelView */ = {
+			isa = PBXGroup;
+			children = (
+				0D8C17C628678BCA00356190 /* Main.swift */,
+			);
+			path = ModelView;
+			sourceTree = "<group>";
+		};
 		0D8C178C2866604000356190 = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +116,7 @@
 			children = (
 				0D6714B32882F08B006EC224 /* french.json */,
 				0D8C17C528678B8F00356190 /* Models */,
+				0D854D142886F476009AD3A8 /* ModelView */,
 				0D8C17C2286749D400356190 /* Views */,
 				0D8C179C2866604200356190 /* Assets.xcassets */,
 				0D8C17982866604000356190 /* slowFrenchApp.swift */,
@@ -147,8 +154,9 @@
 			isa = PBXGroup;
 			children = (
 				0D8C179A2866604000356190 /* ContentView.swift */,
-				0D8C17C328674A0700356190 /* LevelsView.swift */,
+				0DFEE11E28906177007B64B4 /* LevelView.swift */,
 				0D6714B52882F633006EC224 /* UnitView.swift */,
+				0D18F49628908B2700648784 /* PodcastView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -156,10 +164,7 @@
 		0D8C17C528678B8F00356190 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				0D8C17C628678BCA00356190 /* Main.swift */,
 				0D43DA9C287F7B9C00C3CFD0 /* Level.swift */,
-				0D43DA96287F780C00C3CFD0 /* Unit.swift */,
-				0D43DA98287F798500C3CFD0 /* Podcast.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -296,12 +301,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D8C179B2866604000356190 /* ContentView.swift in Sources */,
-				0D43DA99287F798500C3CFD0 /* Podcast.swift in Sources */,
-				0D8C17C428674A0700356190 /* LevelsView.swift in Sources */,
-				0D43DA97287F780C00C3CFD0 /* Unit.swift in Sources */,
+				0D18F49728908B2700648784 /* PodcastView.swift in Sources */,
 				0D6714B62882F634006EC224 /* UnitView.swift in Sources */,
 				0D8C17C728678BCA00356190 /* Main.swift in Sources */,
 				0D43DA9D287F7B9C00C3CFD0 /* Level.swift in Sources */,
+				0DFEE11F28906177007B64B4 /* LevelView.swift in Sources */,
 				0D8C17992866604000356190 /* slowFrenchApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
