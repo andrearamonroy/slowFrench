@@ -2,33 +2,42 @@
     [
       {
        "id" : "0783BA8E-6C05-4902-9F4F-CA7905295BB7",
-      "name": "Debutant",
+      "name": "Débutant",
+      "theme": "indigo",
       "units" : [ 
         {"id":"3221353D-DFAC-4BD9-8624-D4810A02F285",
+            "theme": "indigo",
           "unitName": "Unit 1",
           "podcasts":[{
             "id":"B6C978D6-4943-4463-8D43-56571EE50284",
-            "podcastName": "vous etes",
+            "theme": "indigo",
+            "podcastName": "Vous êtes?",
             "podcastTime":"3:30"},
          {"id":"1CCF7094-D58D-4A09-B15B-AD579603B9F9",
-            "podcastName": "verbs in er",
+             "theme": "indigo",
+            "podcastName": "Verbes en -er",
             "podcastTime":"3:30"},
          { "id":"2DA502E1-06C1-4F9C-97B4-74BECA5C154A",
-         "podcastName": "verbs in ir",
+             "theme": "indigo",
+         "podcastName": "Verbe avoir",
           "podcastTime":"3:30"}]    
     },
     { 
         "id":"D6BEB9A7-A16B-4014-985C-CEB44D5D05A3",
+        "theme": "indigo",
         "unitName": "Unit 2",
         "podcasts" : [{
             "id":"BBB613BE-2EAE-4422-A71E-C4ACEC04C6C9",
-            "podcastName": "venir",
+            "theme": "indigo",
+            "podcastName": "Au café",
             "podcastTime":"3:30"},
          {"id":"474F4E1D-1706-4AE4-9A89-EF8D5DF83DFD",
-            "podcastName": "aller",
+             "theme": "indigo",
+            "podcastName": "À la poste",
             "podcastTime":"3:30"},
          { "id":"77A65FF6-35B1-46E2-8D69-71781F1E20FF",
-         "podcastName": "retorner",
+             "theme": "indigo",
+         "podcastName": "À la gare",
           "podcastTime":"3:30"}]
     }
       
@@ -37,38 +46,48 @@
 {
   
   "id":"374FBB52-743A-4114-8646-37D42BEB96C1",
-  "name":"Intermediate",
+  "name":"Intermédiaire",
+  "theme": "bubblegum",
   "units": [
      {"id":"3221353D-DFAC-4BD9-8624-D4810A02F285",
+         "theme": "bubblegum",
           "unitName": "Unit 1",
           "podcasts":[{
             "id":"CCFF3135-E3D0-4D19-8622-B5B7B8CCB5C9",
-            "podcastName": "avoir",
+            "theme": "bubblegum",
+            "podcastName": "Le passé composé avec être",
             "podcastTime":"3:30"},
          {"id":"C7EC3793-B83F-400E-AD6A-D2B63EABC58D",
-            "podcastName": "aller",
+             "theme": "bubblegum",
+            "podcastName": "Le passé composé avec avoir",
             "podcastTime":"3:30"},
          { "id":"6429B244-32A7-4DE2-9B88-5B6E3EE3EDAB",
-         "podcastName": "devenir",
+             "theme": "bubblegum",
+         "podcastName": "Accord passé composé",
           "podcastTime":"3:30"}]    
     }
   ]
 },
 {
   "id":"0CB78AB8-9985-4A3A-8D73-ABEDB24CA93C",
-  "name":"Avance",
+  "name":"Avancé",
+  "theme": "orange",
   "units": [
      {"id":"848EBB38-22AA-44C5-9F01-6FB5E871CE1D",
+         "theme": "orange",
           "unitName": "Unit 1",
           "podcasts":[{
             "id":"5E9DA395-D917-461B-BD93-70F77EA74153",
-            "podcastName": "je suis",
+            "theme": "orange",
+            "podcastName": "Parler de projets",
             "podcastTime":"3:30"},
          {"id":"9758F3FF-3E5F-4793-9C50-5E0802B08ACB",
-            "podcastName": "tu es",
+             "theme": "orange",
+            "podcastName": "Sortie avec l'école",
             "podcastTime":"3:30"},
          { "id":"E13A669C-DC64-4247-B006-1C5AF0DDE494",
-         "podcastName": "il est",
+             "theme": "orange",
+         "podcastName": "Après la sortie",
           "podcastTime":"3:30"}]    
     }
   ]

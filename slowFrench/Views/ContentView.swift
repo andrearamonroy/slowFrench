@@ -17,8 +17,9 @@ struct ContentView: View {
                         .aspectRatio(geo.size, contentMode: .fill)
                         .edgesIgnoringSafeArea(.all)
                     
-                    VStack (spacing: 10){
-                        Spacer()
+                    
+                    VStack (alignment: .center,spacing: 10){
+                      Spacer()
                         
                         Text("Slow French")
                             .foregroundColor(.purple)
@@ -36,7 +37,9 @@ struct ContentView: View {
                                 .foregroundColor(.white)
                                 .cornerRadius(10)
                             
+                          
                         }
+                        Spacer()
                         Spacer()
                     }
                 }
@@ -50,7 +53,7 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
-
+           // .environmentObject(AudioManager())
     }
 }
     

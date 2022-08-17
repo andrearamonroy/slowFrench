@@ -5,10 +5,46 @@
 //  Created by Andrea on 6/25/22.
 //
 
-import SwiftUI
-import Combine
+
 import Foundation
 
+
+class French: ObservableObject {
+    //whenever an object with a property marked @Published is changed, all views using that object will be reloaded to reflect those changes.
+    @Published private(set) var frenchData = [Level]()
+    
+    
+    init() {
+        load()
+    }
+    func load() {
+        let path = Bundle.main.path(forResource: "french", ofType: "json")
+        let url = URL(fileURLWithPath: path!)
+        
+        
+        URLSession.shared.dataTask(with: url){ (data, response, error) in
+            do {
+                if let data = data {
+                    let frenchData = try JSONDecoder().decode([Level].self, from: data)
+                    //send it back
+                  
+                    
+                    DispatchQueue.main.sync {
+                        self.frenchData = frenchData}
+                } else {
+                    print("no data")
+                }
+            } catch {
+                print(error)
+            }
+        }.resume()
+    }
+}
+
+
+
+
+/*
 let frenchData: [Level] = load("french.json")
 
 func load<T: Decodable>(_ filename: String) -> T {
@@ -32,4 +68,4 @@ func load<T: Decodable>(_ filename: String) -> T {
         fatalError("Couldn't parse \(filename) as \(T.self):\n\(error)")
     }
 }
-
+*/

@@ -8,7 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		0D18F49728908B2700648784 /* PodcastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D18F49628908B2700648784 /* PodcastView.swift */; };
+		0D37CA8628A6A91E00955327 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D37CA8528A6A91E00955327 /* PlayerView.swift */; };
+		0D3F36B828A93730009E969A /* PlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3F36B728A93730009E969A /* PlayButton.swift */; };
+		0D3F36BA28A94A29009E969A /* AudioModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3F36B928A94A29009E969A /* AudioModel.swift */; };
+		0D3F36BC28A94A39009E969A /* AudioVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3F36BB28A94A39009E969A /* AudioVM.swift */; };
+		0D3F36BE28A94EAE009E969A /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3F36BD28A94EAE009E969A /* AudioManager.swift */; };
+		0D3F36C028A9578A009E969A /* vousetes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0D3F36BF28A9578A009E969A /* vousetes.mp3 */; };
 		0D43DA9D287F7B9C00C3CFD0 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D43DA9C287F7B9C00C3CFD0 /* Level.swift */; };
+		0D56440228A5535800925BE2 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D56440128A5535800925BE2 /* Theme.swift */; };
 		0D6714B42882F08B006EC224 /* french.json in Resources */ = {isa = PBXBuildFile; fileRef = 0D6714B32882F08B006EC224 /* french.json */; };
 		0D6714B62882F634006EC224 /* UnitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6714B52882F633006EC224 /* UnitView.swift */; };
 		0D8C17992866604000356190 /* slowFrenchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8C17982866604000356190 /* slowFrenchApp.swift */; };
@@ -19,6 +26,7 @@
 		0D8C17B42866604300356190 /* slowFrenchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8C17B32866604300356190 /* slowFrenchUITests.swift */; };
 		0D8C17B62866604300356190 /* slowFrenchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8C17B52866604300356190 /* slowFrenchUITestsLaunchTests.swift */; };
 		0D8C17C728678BCA00356190 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8C17C628678BCA00356190 /* Main.swift */; };
+		0DCC9C3828ABE99400EAAAEC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCC9C3728ABE99400EAAAEC /* Extensions.swift */; };
 		0DFEE11F28906177007B64B4 /* LevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFEE11E28906177007B64B4 /* LevelView.swift */; };
 /* End PBXBuildFile section */
 
@@ -41,7 +49,14 @@
 
 /* Begin PBXFileReference section */
 		0D18F49628908B2700648784 /* PodcastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastView.swift; sourceTree = "<group>"; };
+		0D37CA8528A6A91E00955327 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		0D3F36B728A93730009E969A /* PlayButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayButton.swift; sourceTree = "<group>"; };
+		0D3F36B928A94A29009E969A /* AudioModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioModel.swift; sourceTree = "<group>"; };
+		0D3F36BB28A94A39009E969A /* AudioVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioVM.swift; sourceTree = "<group>"; };
+		0D3F36BD28A94EAE009E969A /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		0D3F36BF28A9578A009E969A /* vousetes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = vousetes.mp3; sourceTree = "<group>"; };
 		0D43DA9C287F7B9C00C3CFD0 /* Level.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
+		0D56440128A5535800925BE2 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		0D6714B32882F08B006EC224 /* french.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = french.json; sourceTree = "<group>"; };
 		0D6714B52882F633006EC224 /* UnitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitView.swift; sourceTree = "<group>"; };
 		0D8C17952866604000356190 /* slowFrench.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = slowFrench.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,6 +70,8 @@
 		0D8C17B32866604300356190 /* slowFrenchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = slowFrenchUITests.swift; sourceTree = "<group>"; };
 		0D8C17B52866604300356190 /* slowFrenchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = slowFrenchUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0D8C17C628678BCA00356190 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		0DCC9C3728ABE99400EAAAEC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		0DED653828AA8EDB00815FB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		0DFEE11E28906177007B64B4 /* LevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,6 +104,8 @@
 			isa = PBXGroup;
 			children = (
 				0D8C17C628678BCA00356190 /* Main.swift */,
+				0D3F36BB28A94A39009E969A /* AudioVM.swift */,
+				0D3F36BD28A94EAE009E969A /* AudioManager.swift */,
 			);
 			path = ModelView;
 			sourceTree = "<group>";
@@ -114,11 +133,14 @@
 		0D8C17972866604000356190 /* slowFrench */ = {
 			isa = PBXGroup;
 			children = (
+				0DED653828AA8EDB00815FB3 /* Info.plist */,
 				0D6714B32882F08B006EC224 /* french.json */,
+				0DCC9C3728ABE99400EAAAEC /* Extensions.swift */,
 				0D8C17C528678B8F00356190 /* Models */,
 				0D854D142886F476009AD3A8 /* ModelView */,
 				0D8C17C2286749D400356190 /* Views */,
 				0D8C179C2866604200356190 /* Assets.xcassets */,
+				0D3F36BF28A9578A009E969A /* vousetes.mp3 */,
 				0D8C17982866604000356190 /* slowFrenchApp.swift */,
 				0D8C179E2866604200356190 /* Preview Content */,
 			);
@@ -157,6 +179,8 @@
 				0DFEE11E28906177007B64B4 /* LevelView.swift */,
 				0D6714B52882F633006EC224 /* UnitView.swift */,
 				0D18F49628908B2700648784 /* PodcastView.swift */,
+				0D37CA8528A6A91E00955327 /* PlayerView.swift */,
+				0D3F36B728A93730009E969A /* PlayButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -165,6 +189,8 @@
 			isa = PBXGroup;
 			children = (
 				0D43DA9C287F7B9C00C3CFD0 /* Level.swift */,
+				0D56440128A5535800925BE2 /* Theme.swift */,
+				0D3F36B928A94A29009E969A /* AudioModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -273,6 +299,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D3F36C028A9578A009E969A /* vousetes.mp3 in Resources */,
 				0D8C17A02866604200356190 /* Preview Assets.xcassets in Resources */,
 				0D8C179D2866604200356190 /* Assets.xcassets in Resources */,
 				0D6714B42882F08B006EC224 /* french.json in Resources */,
@@ -300,13 +327,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D3F36BA28A94A29009E969A /* AudioModel.swift in Sources */,
+				0D3F36BC28A94A39009E969A /* AudioVM.swift in Sources */,
+				0D37CA8628A6A91E00955327 /* PlayerView.swift in Sources */,
+				0D3F36B828A93730009E969A /* PlayButton.swift in Sources */,
 				0D8C179B2866604000356190 /* ContentView.swift in Sources */,
+				0D56440228A5535800925BE2 /* Theme.swift in Sources */,
 				0D18F49728908B2700648784 /* PodcastView.swift in Sources */,
 				0D6714B62882F634006EC224 /* UnitView.swift in Sources */,
 				0D8C17C728678BCA00356190 /* Main.swift in Sources */,
 				0D43DA9D287F7B9C00C3CFD0 /* Level.swift in Sources */,
 				0DFEE11F28906177007B64B4 /* LevelView.swift in Sources */,
 				0D8C17992866604000356190 /* slowFrenchApp.swift in Sources */,
+				0D3F36BE28A94EAE009E969A /* AudioManager.swift in Sources */,
+				0DCC9C3828ABE99400EAAAEC /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,6 +502,7 @@
 				DEVELOPMENT_TEAM = 54WBT8TSTM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = slowFrench/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -498,6 +533,7 @@
 				DEVELOPMENT_TEAM = 54WBT8TSTM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = slowFrench/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

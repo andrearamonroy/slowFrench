@@ -8,17 +8,30 @@
 import SwiftUI
 
 struct LevelView: View {
+    //source of truth 
+    @StateObject var viewModel = French()
+    
     var body: some View {
-        
-        VStack {
-                ForEach(frenchData, id: \.id){data in
-                    NavigationLink(destination: UnitView(level: data)) {
-                        LevelButton(level: data)}
-                }.padding()
+        GeometryReader { geo in
+            ZStack{
+                Image("background3")
+                    .resizable()
+                    .aspectRatio(geo.size, contentMode: .fill)
+                    .edgesIgnoringSafeArea(.all)
+                
+                VStack {
+                    ForEach(viewModel.frenchData, id: \.id){data in
+                        NavigationLink(destination: UnitView(units: data.units)) {
+                            LevelButton(level: data)}
+                        .navigationBarHidden(true)
+                    }.padding()
+                }
+                
             }
         }
-      
     }
+    
+   
 
 
 struct LevelButton: View {
@@ -29,18 +42,21 @@ struct LevelButton: View {
                         .fontWeight(.bold)
                         .font(.title)
                         .padding()
-                        .background(.purple)
+                        .background(level.theme.mainColor)
                         .cornerRadius(40)
-                        .foregroundColor(.white)
+                        .foregroundColor(level.theme.accentColor)
                         .padding(7)
-                        .overlay(RoundedRectangle(cornerRadius: 40).stroke(.purple, lineWidth: 5))
+                        .overlay(RoundedRectangle(cornerRadius: 40).stroke(level.theme.mainColor, lineWidth: 5))
            
                      
             }
             
 }
-struct LevelView_Previews: PreviewProvider {
-    static var previews: some View {
-        LevelView()
+    struct LevelView_Previews: PreviewProvider {
+        static var previews: some View {
+            LevelView()
+               // .environmentObject(AudioManager())
+        }
     }
+    
 }
