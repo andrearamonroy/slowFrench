@@ -28,6 +28,6 @@ The application gets the level-unit-podcast hierarchy from a local .json file, t
 
 Also the mp3 file is downloaded from the website and stored locally, in order to implement functions in the AVKit framework. 
 
-The podcasts utulizes the playPause, stop, and toggleLoop functions. The user is also able to foward the audio by 10 secs and go back by 10 secs. 
+The podcasts implements the playPause, stop, and toggleLoop functions. The user is also able to foward the audio by 10 secs and go back by 10 secs. 
 
 In this project I worked with parsing .json and managing auido. Nevertheless, it will be upgraded to use a database instead of storing files locally. 
