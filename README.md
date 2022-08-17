@@ -5,6 +5,8 @@ The Slow French Podcast App, is a language learning app, with three different le
 Welcome Screen
 ![Simulator Screen Shot - iPhone 13 Pro - 2022-08-17 at 12 38 58](https://user-images.githubusercontent.com/54419381/185195472-bb22217a-7117-4fbe-9690-6ca54b827e51.png)
 
+<img scr="https://user-images.githubusercontent.com/54419381/185195472-bb22217a-7117-4fbe-9690-6ca54b827e51.png" width=200 height=400>
+
 Levels
 ![Simulator Screen Shot - iPhone 13 Pro - 2022-08-17 at 12 44 26](https://user-images.githubusercontent.com/54419381/185196227-49e17a1a-598d-4412-b75a-2b241d11dfb6.png)
 
