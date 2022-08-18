@@ -16,4 +16,4 @@ Also the mp3 file is downloaded from the website and stored locally, in order to
 
 The podcasts implements the playPause, stop, and toggleLoop functions. The user is also able to foward the audio by 10 secs and go back by 10 secs. 
 
-In this project I worked with parsing .json and managing auido. Nevertheless, it will be upgraded to use a database instead of storing files locally and provide subtitles to each podcast. 
+In this project I worked with parsing .json and managing audio. Nevertheless, it will be upgraded to use a database instead of storing files locally and provide subtitles to each podcast. 
