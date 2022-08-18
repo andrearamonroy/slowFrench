@@ -8,7 +8,7 @@ The Slow French Podcast App, is a language learning app, with three different le
 
 ## Implementation
 
-The application gets the level-unit-podcast hierarchy from a local .json file, that I created to meet the needs of this app. Another approach instead of having a local .json file would had been an API call, however, I wanted the app to look as close as possible to the website version of this app, https://www.podcastfrancaisfacile.com/dialogue-debutant-francais. The Podcast francais facile was the inspiration for this app, and since they don't provide any Web API endpoints to return .json I implemented my own.
+The application gets the level-unit-podcast hierarchy from a local .json file, that I created to meet the needs of this app. Another approach instead of having a local .json file would had been an API call, however, I wanted the app to look as close as possible to the website version of this app, https://www.podcastfrancaisfacile.com/dialogue-debutant-francais. The Website "Podcast francais facile" was the inspiration for this app, and since they don't provide any Web API endpoints to return .json I implemented my own.
 
 <img width="1211" alt="Screen Shot 2022-08-17 at 12 57 38 PM" src="https://user-images.githubusercontent.com/54419381/185199388-87e49562-e3f1-4af1-a982-483994a92718.png">
 
