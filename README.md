@@ -2,22 +2,8 @@
 
 The Slow French Podcast App, is a language learning app, with three different levels: 1. Débutant, 2. Intermédiare, and 3. Avance. Each level contains unique units with different podcast topics, as you progress on the levels the podcast topics are more advance. 
 
-Welcome Screen
-![Simulator Screen Shot - iPhone 13 Pro - 2022-08-17 at 12 38 58](https://user-images.githubusercontent.com/54419381/185195472-bb22217a-7117-4fbe-9690-6ca54b827e51.png)
+<img width="1770" alt="slowFrench" src="https://user-images.githubusercontent.com/54419381/185433922-867dd79b-00f7-43de-8e51-1ad7f3e88b2f.png">
 
-<img width="200" height="400" alt="Simulator Screen Shot - iPhone 13 Pro - 2022-08-17 at 12 38 58" scr="https://user-images.githubusercontent.com/54419381/185195472-bb22217a-7117-4fbe-9690-6ca54b827e51.png">
-
-Levels
-![Simulator Screen Shot - iPhone 13 Pro - 2022-08-17 at 12 44 26](https://user-images.githubusercontent.com/54419381/185196227-49e17a1a-598d-4412-b75a-2b241d11dfb6.png)
-
-Units according to the level selected
-![Simulator Screen Shot - iPhone 13 Pro - 2022-08-17 at 12 45 02](https://user-images.githubusercontent.com/54419381/185196378-49af333c-c2d2-4045-9f39-473d69dc3c80.png)
-
-Podcast in the unit selected
-![Simulator Screen Shot - iPhone 13 Pro - 2022-08-17 at 12 45 37](https://user-images.githubusercontent.com/54419381/185196473-02800d81-c1f6-4ec9-8993-ea6b86e9694c.png)
-
-Detailed View of the Podcast
-![Simulator Screen Shot - iPhone 13 Pro - 2022-08-17 at 12 46 17](https://user-images.githubusercontent.com/54419381/185196575-ca887f06-0b3e-4076-acc2-acf23df07351.png)
 
 
 ## Implementation
