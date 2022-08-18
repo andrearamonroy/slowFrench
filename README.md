@@ -1,4 +1,4 @@
-# slowFrench
+# Slow French Podcast
 
 The Slow French Podcast App, is a language learning app, with three different levels: 1. Débutant, 2. Intermédiare, and 3. Avance. Each level contains unique units with different podcast topics, as you progress on the levels the podcast topics are more advance. 
 
